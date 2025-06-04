@@ -6,15 +6,20 @@ export async function onRequest({ request }) {
     return new Response("Missing url parameter", { status: 400 });
   }
 
+  const newHeaders = new Headers(request.headers);
+  newHeaders.set("User-Agent", "Mozilla/5.0");
+  newHeaders.set("Referer", target);
+  newHeaders.set("Origin", new URL(target).origin);
+
   try {
     const res = await fetch(target, {
-      headers: {
-        "User-Agent": "Mozilla/5.0"
-      }
+      method: request.method,
+      headers: newHeaders,
     });
 
     const headers = new Headers(res.headers);
     headers.set("Access-Control-Allow-Origin", "*");
+    headers.delete("content-encoding"); // penting, biar HLS bisa parse .ts chunk
 
     return new Response(res.body, {
       status: res.status,
