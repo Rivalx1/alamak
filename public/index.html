@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IPTV Web Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>IPTV Viewer</h1>
+  <input type="file" id="fileInput" />
+  <select id="channelList"></select>
+  <video id="video" controls width="640" height="360"></video>
+
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <script>
+    document.getElementById('fileInput').addEventListener('change', function(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        loadPlaylist(e.target.result);
+      };
+      reader.readAsText(file);
+    });
+
+    async function loadPlaylist(data) {
+      const channels = [];
+      const lines = data.split('\n');
+      for (let i = 0; i < lines.length; i++) {
+        if (lines[i].startsWith('#EXTINF')) {
+          const title = lines[i].split(',')[1];
+          const url = lines[i + 1];
+          channels.push({ title, url });
+        }
+      }
+
+      const select = document.getElementById('channelList');
+      const video = document.getElementById('video');
+      select.innerHTML = "";
+
+      channels.forEach((ch, idx) => {
+        const opt = document.createElement('option');
+        opt.value = idx;
+        opt.textContent = ch.title;
+        select.appendChild(opt);
+      });
+
+      select.addEventListener('change', () => {
+        const stream = channels[select.value].url;
+        const proxiedUrl = '/proxy?url=' + encodeURIComponent(stream);
+        if (Hls.isSupported()) {
+          const hls = new Hls();
+          hls.loadSource(proxiedUrl);
+          hls.attachMedia(video);
+        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+          video.src = proxiedUrl;
+        }
+        video.play();
+      });
+    }
+  </script>
+</body>
+</html>

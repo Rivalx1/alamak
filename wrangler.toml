@@ -1,0 +1,9 @@
+name = "iptv-viewer"
+compatibility_date = "2024-05-01"
+
+[site]
+bucket = "./public"
+
+[[routes]]
+pattern = "/proxy*"
+script = "functions/proxy"
