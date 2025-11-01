@@ -1,0 +1,23 @@
+#EXTINF:-1 tvg-logo="" group-title="Tested", MNCTV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://archertv.my.id/event/drm.kt?id=870&type=drm
+https://archertv.my.id/event/drm.kt?id=870&type=dash
+
+#EXTINF:-1 tvg-logo="" group-title="Tested", RCTI
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://archertv.my.id/event/drm.kt?id=665&type=drm
+https://archertv.my.id/event/drm.kt?id=665&type=dash
+
+#EXTINF:-1 tvg-logo="" group-title="Tested", GTV
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://archertv.my.id/event/drm.kt?id=778&type=drm
+https://archertv.my.id/event/drm.kt?id=778&type=dash
