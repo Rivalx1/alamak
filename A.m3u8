@@ -1,23 +1,13 @@
-#EXTINF:-1 tvg-logo="" group-title="Tested", MNCTV
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://archertv.my.id/event/drm.kt?id=870&type=drm
-https://archertv.my.id/event/drm.kt?id=870&type=dash
+#EXTM3U
 
-#EXTINF:-1 tvg-logo="" group-title="Tested", RCTI
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTINF:-1 group-title="ðŸ“… FIFA WorldCup U-17" tvg-logo="https://i.ibb.co/0j7W8y3/upcoming.png",=== â° UPCOMING MATCHES ===
+#https://example.com
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://archertv.my.id/event/drm.kt?id=665&type=drm
-https://archertv.my.id/event/drm.kt?id=665&type=dash
+#KODIPROP:inputstream.adaptive.license_key=https://qtv.my.id/tv_baru/fifap/drm2.php?id=37537e6f-030e-4e91-b4ca-2602b727e7fd
+#EXTINF:-1 group-logo="http://qtv.my.id/glogo/fifawc25.png" group-title="ðŸ“… FIFA WorldCup U-17" tvg-id="" tvg-logo="https://cdn.plus.fifa.com/images/public/cms/45/d5/4c/63/45d54c63-5631-41c2-a259-3fe43d0b0f7d.jpg",Costa Rica v United Arab Emirates | FIFA U-17 World Cup Qatar 2025â„¢ | 03/11 19:15 WIB
+http://qtv.my.id/tv_baru/vidio/fifa.mpd?id=37537e6f-030e-4e91-b4ca-2602b727e7fd&type=dash
 
-#EXTINF:-1 tvg-logo="" group-title="Tested", GTV
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://archertv.my.id/event/drm.kt?id=778&type=drm
-https://archertv.my.id/event/drm.kt?id=778&type=dash
+#KODIPROP:inputstream.adaptive.license_key=https://qtv.my.id/tv_baru/fifap/drm2.php?id=f9a24291-655a-40bd-8257-bbedbd3b8356
+#EXTINF:-1 group-logo="http://qtv.my.id/glogo/fifawc25.png" group-title="ðŸ“… FIFA WorldCup U-17" tvg-id="" tvg-logo="https://cdn.plus.fifa.com/images/public/cms/c4/24/e2/22/c424e222-e8ab-45d1-967d-e32137a57e05.jpg",South Africa v Bolivia | FIFA U-17 World Cup Qatar 2025â„¢ | 03/11 19:15 WIB
+https://d7pd9oqdl4d44.cloudfront.net/2025_10_31_09_40_00_d800ada3-af9f-4f22-9f9c-f0217e0ff901/PROD_CMAF_CENC/index-dash.mpd?aws.manifestfilter=audio_language%3Aeng%3Bvideo_codec%3Ah264%3Bvideo_height%3A1-720
