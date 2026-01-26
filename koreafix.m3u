@@ -1,0 +1,49 @@
+#EXTM3U
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",ABN TV (720p)
+https://vod2.abn.co.kr/IPHONE/abn.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",Arirang (720p)
+http://amdlive-ch02.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",Arirang Radio (720p)
+http://amdlive.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="https://i.imgur.com/i7uUG2m.png" group-title="Undefined",BBS Buddhist Broadcasting
+http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",BTN TV (1080p)
+https://btn.nowcdn.co.kr/btn/btnlive2m/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",CJ OnStyle (540p)
+https://live-ch1.cjonstyle.net/cjmalllive/stream2/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",CJ OnStyle Plus (540p)
+https://live-ch2.cjonstyle.net/cjosplus/live2/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",Channel A (360p)
+http://www.hwado.net/webtv/catv/52_440DDPPJ.php?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",EBS 1 (400p)
+http://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",EBS 2 (400p) [Not 24/7]
+https://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Kids",EBS KIDS (400p)
+http://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",EBS+ 1 (400p)
+http://ebsonair.ebs.co.kr/plus1familypc/familypc1m/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",EBS+ 2 (400p)
+http://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",FGTV (720p)
+https://fgtvlive.fgtv.com/smil:fgtv.smil/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="https://i.imgur.com/QUxuHA1.png" group-title="Undefined",GCN
+http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_high/chunklist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",GCN24 Korean (720p)
+http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_1300k.stream/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",GS My Shop (1080p)
+https://gstv-myshop.gsshop.com/myshop_hd/myshop_hd.stream/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",GS Shop (1080p)
+https://gstv-gsshop.gsshop.com/gsshop_hd/gsshop_hd.stream/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",Gongyoung Shopping (720p)
+https://etv.publichs.com/live5.stream/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",GoodTV (1080p)
+http://mobliestream.c3tv.com:1935/live/goodtv.sdp/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",GugakTV 국악방송 (1080p)
+https://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",Korea TV (1080p)
+https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="https://i.imgur.com/loWf3B5.jpg" group-title="Undefined",NBS Korea Agricultural Broadcasting
+https://media.joycorp.co.kr:4443/live/live_720p/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="KR" tvg-logo="" group-title="Undefined",OUN (1080p)
+https://live.knou.ac.kr/knou1/live1/playlist.m3u8?checkedby:iptvcat.net
